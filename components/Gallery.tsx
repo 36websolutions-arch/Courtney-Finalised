@@ -92,7 +92,7 @@ export default function Gallery() {
           </div>
 
           {/* BOTTOM GRID */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-1 gap-5 mt-8">
             {images.slice(2).map((img, i) => (
               <div
                 key={i}

@@ -129,7 +129,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="col-span-12 lg:col-span-7 md:col-span-12 text-center md:text-left">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <Image
                   src="/images/hero1.png"
