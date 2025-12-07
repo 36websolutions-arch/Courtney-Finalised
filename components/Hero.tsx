@@ -137,7 +137,7 @@ export default function Hero() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <Image
-                  src="/images/hero1.png"
+                  src="/images/hero2.png"
                   alt="Hero Image 1"
                   width={600}
                   height={800}
@@ -146,7 +146,7 @@ export default function Hero() {
               </div>
               <div>
                 <Image
-                  src="/images/hero2.png"
+                  src="/images/hero1.png"
                   alt="Hero Image 1"
                   width={600}
                   height={800}
