@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function Courtney() {
   return (
-    <section className="bg-[#F0F0F0] py-16">
+    <section id="about" className="bg-[#F0F0F0] py-16">
       <div className="container mx-auto px-5">
         <div className="flex justify-between items-center lg:flex-row md:flex-col sm:flex-col flex-col">
           <h2 className="lg:text-5xl md:text-3xl text-4xl font-nuosu-sil font-normal lg:text-left md:text-center text-secondary mb-10">

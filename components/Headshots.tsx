@@ -23,7 +23,7 @@ export default function Headshots() {
   };
 
   return (
-    <section className="bg-white py-20">
+    <section id="headshots" className="bg-white py-20">
       <div className="container mx-auto px-5">
         <h4 className="text-sm text-secondary font-medium font-montserrat">
           | Headshots |

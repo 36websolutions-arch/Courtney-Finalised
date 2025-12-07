@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { LuClapperboard, LuVideo } from "react-icons/lu";
 import Image from "next/image";
+import Link from "next/link";
 export const metadata = {
   title: "Courtney Lee Roberts | Actor & Artist",
   description:
@@ -57,12 +58,16 @@ export default function Hero() {
                 <p className="text-white">Actor & Artist</p>
               </h1>
               <div className="flex gap-5 mt-5 justify-center md:justify-start">
-                <button className="flex gap-2 items-center text-sm font-bold bg-secondary text-white py-5 px-7 ">
-                  <FaPlay /> Video Gallery
-                </button>
-                <button className="flex gap-2 items-center border-2 border-secondary text-sm font-bold  text-secondary py-5 px-7 ">
+                <Link
+                  href="#gallery"
+                  className="flex gap-2 items-center text-sm font-bold bg-secondary text-white py-5 px-7 ">
+                  <FaPlay /> Gallery
+                </Link>
+                <Link
+                  href="tel:+12345678900"
+                  className="flex gap-2 items-center border-2 border-secondary text-sm font-bold  text-secondary py-5 px-7 ">
                   Contact Me
-                </button>
+                </Link>
               </div>
               {/* // info */}
               <div className="flex gap-5 mt-5 justify-center md:justify-start">

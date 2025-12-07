@@ -32,10 +32,7 @@ export default function Footer() {
           </div>
           <div className="flex md:flex-row flex-col items-center space-x-10">
             <p className="text-white text-sm font-montserrat font-normal">
-              © Created by SK Rifat
-            </p>
-            <p className="text-sm font-montserrat font-normal text-white">
-              All rights Reserved
+              Copyright © 2025 Courtney Lee Roberts - All Rights Reserved.
             </p>
           </div>
         </div>

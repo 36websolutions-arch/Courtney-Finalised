@@ -25,10 +25,10 @@ export default function Navbar() {
         <nav className="hidden md:flex gap-6 text-white tracking-wide text-sm font-medium font-montserrat">
           {[
             { name: "ABOUT ME", href: "#about" },
-            { name: "FILMOGRAPHY", href: "#films" },
-            { name: "THEATER", href: "#theater" },
-            { name: "REVIEWS", href: "#reviews" },
-            { name: "CONTACT ME", href: "#contact" },
+            { name: "HEADSHOTS", href: "#headshots" },
+            { name: "GALLERY", href: "#gallery" },
+            { name: "COVER LETTER", href: "#coverletter" },
+            { name: "CONTACT ME", href: "tel:+12345678900" },
           ].map((item, i) => (
             <motion.div
               key={i}
@@ -58,10 +58,10 @@ export default function Navbar() {
           <div className="flex flex-col gap-4 text-sm tracking-wide font-medium font-montserrat">
             {[
               { name: "ABOUT ME", href: "#about" },
-              { name: "FILMOGRAPHY", href: "#films" },
-              { name: "THEATER", href: "#theater" },
-              { name: "REVIEWS", href: "#reviews" },
-              { name: "CONTACT ME", href: "#contact" },
+              { name: "HEADSHOTS", href: "#headshots" },
+              { name: "GALLERY", href: "#gallery" },
+              { name: "COVER LETTER", href: "#coverletter" },
+              { name: "CONTACT ME", href: "tel:+12345678900" },
             ].map((item, i) => (
               <motion.div
                 key={i}

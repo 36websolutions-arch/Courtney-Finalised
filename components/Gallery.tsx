@@ -37,7 +37,7 @@ export default function Gallery() {
   };
 
   return (
-    <section className="bg-primary py-16">
+    <section id="gallery" className="bg-primary py-16">
       <div className="container mx-auto px-5">
         {/* ========= TOP SECTION (UNCHANGED) ========= */}
         <div>

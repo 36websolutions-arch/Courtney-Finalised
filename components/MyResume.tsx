@@ -22,7 +22,7 @@ export default function MyResume() {
   };
 
   return (
-    <section className="bg-primary py-16">
+    <section id="coverletter" className="bg-primary py-16">
       <div className="container mx-auto px-5">
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10 justify-center items-center">
           {/* LEFT SIDE – Cover Letter */}
@@ -34,7 +34,7 @@ export default function MyResume() {
               My Cover Letter
             </h2>
 
-            <div className="mt-10">
+            <div className="mt-10 bg-[#E5C9C4] p-5">
               <Image
                 src={images[0]}
                 width={600}
@@ -56,13 +56,15 @@ export default function MyResume() {
 
             <div className="mt-10 relative mx-auto">
               {/* Resume Image */}
-              <Image
-                src={images[index]}
-                width={600}
-                height={600}
-                alt="resume"
-                className="w-full h-full"
-              />
+              <div className="bg-[#E5C9C4] p-5">
+                <Image
+                  src={images[index]}
+                  width={600}
+                  height={600}
+                  alt="resume"
+                  className="w-full h-full"
+                />
+              </div>
 
               {/* LEFT ARROW */}
               <button
