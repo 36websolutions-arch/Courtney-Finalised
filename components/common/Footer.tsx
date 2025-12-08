@@ -3,9 +3,9 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary py-6 mt-10">
+    <footer className="bg-primary py-6">
       <div className="container mx-auto px-5 ">
-        <div className="flex items-center justify-between">
+        <div className="flex md:flex-row flex-col gap-y-5 items-center justify-between">
           <div className="text-white">
             {/* SOCIAL ICONS */}
             <div className="flex gap-6 mt-10 justify-center md:justify-start">
@@ -30,7 +30,7 @@ export default function Footer() {
               />
             </div>
           </div>
-          <div className="flex md:flex-row flex-col items-center space-x-10">
+          <div className="flex md:flex-row flex-col justify-center items-center space-x-10">
             <p className="text-white text-sm font-montserrat font-normal">
               Copyright © 2025 Courtney Lee Roberts - All Rights Reserved.
             </p>
