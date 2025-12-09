@@ -80,13 +80,13 @@ export default function Hero() {
 
                     <div>
                       <h4 className="text-[12px] font-montserrat font-extrabold tracking-widest">
-                        CONTACT INFORMATION
+                        Manager
                       </h4>
-                      <p className="mt-1 text-[16px] underline font-light font-montserrat">
+                      {/* <p className="mt-1 text-[16px] underline font-light font-montserrat">
                         +1 (234) 567 89 00
-                      </p>
+                      </p> */}
                       <p className="underline cursor-pointer text-[16px] font-light font-montserrat">
-                        julie_smith@email.com
+                        aly@ind-alchemy.com
                       </p>
                     </div>
                   </div>
@@ -99,13 +99,13 @@ export default function Hero() {
 
                     <div>
                       <h4 className="text-[12px] font-montserrat font-extrabold tracking-widest">
-                        AGENT CONTACTS
+                        Agency
                       </h4>
                       <p className="mt-1 text-[16px] underline font-light font-montserrat">
-                        +1 (234) 567 89 01
+                        8188391729
                       </p>
                       <p className="underline cursor-pointer text-[16px] font-light font-montserrat">
-                        agent_smith@email.com
+                        info@jctalentagency.com
                       </p>
                     </div>
                   </div>
